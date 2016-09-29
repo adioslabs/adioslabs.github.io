@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <title>ADIOS Laboratories | IoT &amp; Bigdata | Products | Trainings | Service</title>
+  <meta name="description" content="IoT, Bigdata, IoT Products, IoT Trainings, Automation Service, IoT Hands-On Training Chennai, Bigdata Hands-On Training Chennai, Internet of Things training, ADIOS Lab, ADIOS Laboratories, Embedded System Traings and product Development, Smart Home products, Smart City projects, LoRaWAN Network products in chennai, iBeacon products, iBeacon Training, Zigbee based products in India, Electronics trainings">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="ADIOS Laboratories">
+
+  <!-- FONTS -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700' rel='stylesheet' type='text/css'>
+  <link href="http://fonts.googleapis.com/css?family=Raleway:200,400,800" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/entypo.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/vegas.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/adios.css">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+
+  <script src="js/vendor/modernizr.js"></script>
+
+  <!-- Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75520330-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+</head>
+
+<body class="slider-bg">
+
+  <!-- Preloader -->
+  <div class="preloader flex flex-middle flex-center">
+    <div class="wrapper">
+      <div class="loader"></div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-burger navbar-fixed-top is-transparent" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index-slider.html">
+          <svg class="mylogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 394.3 170">
+            <g class="g-labs">
+              <path d="M28.4 112.6h10.1v24.4h10.2v8.1H28.4V112.6z"/>
+              <path d="M75.3 112.6l4.6 28.5v4H69.7l-0.6-6.6h-4.5l-0.6 6.6h-10.1v-4l4.6-28.5H75.3L75.3 112.6zM68.3 130.4l-0.9-9.7h-1.1l-0.9 9.7H68.3z"/>
+              <path d="M86.4 145.1v-32.5h20.3c2.4 0 4.1 1.7 4.1 4v7.5c0 2.4-2 3.9-4.2 3.9v0.9c2.2 0 4.2 1.5 4.2 3.9v8.2c0 2.4-1.7 4-4.1 4H86.4zM100.6 120.8h-4v3.6h4V120.8zM96.5 137h4v-4.5h-4V137z"/>
+              <path d="M121.8 145.1c-2.4 0-4.1-1.7-4.1-4v-24.4c0-2.4 1.7-4 4.1-4h16.2c2.4 0 4.1 1.7 4.1 4v24.4c0 2.4-1.7 4-4.1 4H121.8zM127.9 120.8v16.2h4v-16.2H127.9z"/>
+              <path d="M169.9 112.6c2.4 0 4 1.7 4 4v12.8c0 1.5-1.2 3.3-2.7 3.7l3.2 8v4h-9.9l-2.7-10.1h-2v10.1h-10.2v-32.5H169.9L169.9 112.6zM159.7 120.8v6.1h4v-6.1H159.7z"/>
+              <path d="M201.5 112.6l4.6 28.5v4H195.9l-0.6-6.6h-4.5l-0.6 6.6h-10.1v-4l4.6-28.5H201.5L201.5 112.6zM194.5 130.4l-0.9-9.7h-1.1l-0.9 9.7H194.5z"/>
+              <path d="M209.3 120.8v-8.2h22.8v4l-1.6 4.1h-4.9v24.3h-10.2v-24.3H209.3z"/>
+              <path d="M242.2 145.1c-2.4 0-4.1-1.7-4.1-4v-24.4c0-2.4 1.7-4 4.1-4h16.2c2.4 0 4.1 1.7 4.1 4v24.4c0 2.4-1.7 4-4.1 4H242.2zM248.3 120.8v16.2h4v-16.2H248.3z"/>
+              <path d="M290.3 112.6c2.4 0 4 1.7 4 4v12.8c0 1.5-1.2 3.3-2.7 3.7l3.2 8v4h-9.9l-2.7-10.1h-2v10.1h-10.2v-32.5H290.3L290.3 112.6zM280.1 120.8v6.1h4v-6.1H280.1z"/>
+              <path d="M301.3 145.1v-32.5h10.1v32.5H301.3z"/>
+              <path d="M318.9 145.1v-32.5h21.7v4l-1.6 4.1h-10v3.6h10v8.1h-10v4.5h11.6v8.1H318.9L318.9 145.1z"/>
+              <path d="M346.2 123.5v-6.8c0-2.4 1.7-4 4.1-4h17.7v4l-1.6 4.2h-10v1.5l8.8 5.9c2.2 1.5 2.7 2.9 2.7 5.5v7.4c0 2.4-1.7 4-4 4h-17.7v-8.1h11.6v-2.1l-8.8-5.9C346.7 127.5 346.2 126.1 346.2 123.5z"/>
+            </g>
+            <g class="g-adios">
+              <polygon points="25.5 99.2 62.7 24.8 99.9 99.2 "/>
+              <rect x="187.9" y="25.8" width="18.6" height="74.5"/>
+              <path d="M213.2 62c0 20.6 16.7 37.2 37.2 37.2 20.6 0 37.2-16.7 37.2-37.2 0-20.6-16.7-37.2-37.2-37.2C229.9 24.8 213.2 41.5 213.2 62z"/>
+              <path d="M143.7 24.8h-37.2v74.5h37.2c20.6 0 37.2-16.7 37.2-37.2C181 41.4 164.3 24.8 143.7 24.8z"/>
+              <path d="M320.2 76.3h48.7V24.8H320.2c-14.2 0-25.7 11.5-25.7 25.7C294.5 64.7 306 76.3 320.2 76.3z"/>
+              <path style="opacity: 0.8" d="M343.3 47.8h-48.7v51.4h48.7c14.2 0 25.7-11.5 25.7-25.7C369 59.3 357.5 47.8 343.3 47.8z" />
+            </g>
+          </svg>
+        </a>
+        <span class="sr-only">Toggle navigation</span>
+        <button class="icon icon-menu burger-menu"></button>
+      </div>
+      <div class="menu-wrapper">
+        <div class="overlay-menu flex flex-middle">
+          <ul class="navigation" role="menubar">
+            <li role="menuitem"><a href="www.adioslabs.in">Home</a></li>
+            <!-- <li role="menuitem"><a href="#">Products</a></li>
+            <li role="menuitem"><a href="#">Trainings</a></li>
+            <li role="menuitem"><a href="#">Services</a></li> -->
+            <li role="menuitem"><a href="www.adioslabs.in/company.html">Company</a></li>
+            <li role="menuitem"><a href="www.adioslabs.in/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="header hero flex flex-middle flex-center" role="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <section class="cd-intro">
+            <h1 class="cd-headline clip is-full-width">
+              <span style="color: #979797;">Hey! We are good at </span>
+              <span style="width: 143px;" class="cd-words-wrapper">
+                <b class="is-visible">IoT.</b>
+                <b>Big Data.</b>
+                <b>BIM.</b>
+                <b>Embedded Systems.</b>
+                <b>Industrial Automation.</b>
+                <b>Web &amp; Graphic Design.</b>
+              </span>
+            </h1>
+          </section>
+          <div class="btn-center">
+            <div class="button-new"><div class="eff-8"></div><a href="http://www.adioslabs.in/contact.html">Contact Us</a></div>
+          </div>
+          <a href="#training">
+            <svg class="arrows">
+              <path class="a1" d="M0 0 L30 32 L60 0"></path>
+              <path class="a2" d="M0 20 L30 52 L60 20"></path>
+              <path class="a3" d="M0 40 L30 72 L60 40"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main class="main" role="main">
+
+    <!-- Clients -->
+    <section class="section clients no-padding text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <ul class="slider clients-logo">
+              <li><img src="img/clients/logo01.png" alt="client" /></li>
+              <li><img src="img/clients/logo02.png" alt="client" /></li>
+              <li><img src="img/clients/logo03.png" alt="client" /></li>
+              <li><img src="img/clients/logo04.png" alt="client" /></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="training" class="section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <hgroup class="title-group">
+              <h3 class="section-title">Our Trainings</h3>
+              <h5 class="subtitle">We Provide Nextgen Technologies Hands-on Training</h5>
+            </hgroup>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature">
+              <i class="fa fa-wifi"></i>
+              <h4 class="title">Internet of Things</h4>
+              <p>The Internet of Things (IoT) is the network of physical objects—devices, vehicles, buildings and other items—embedded with electronics, software, sensors, and network connectivity that enables these objects to collect and exchange data.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature">
+              <i class="fa fa-cloud"></i>
+              <h4 class="title">Big Data</h4>
+              <p>Big data is a term that describes the large volume of data – both structured and unstructured – that inundates a business on a day-to-day basis. But it’s not the amount of data that’s important. It’s what organizations do with the data that matters. Big data can be analyzed for insights that lead to better decisions and strategic business moves.</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feature">
+              <i class="fa fa-building"></i>
+              <h4 class="title">Building Information Modelling</h4>
+              <p>Building Information Modeling (BIM) is an intelligent 3D model-based process that equips architecture, engineering, and construction professionals with the insight and tools to more efficiently plan, design, construct, and manage buildings and infrastructure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fun Facts / Counters -->
+    <section class="section counters">
+      <div class="container">
+        <h1 class="count-head">Projection of IoT in 2020</h1>
+        <div class="row">
+          <div class="col-sm-3 col-md-3">
+            <div class="numbers">
+              <span class="number" data-from="0" data-to="4" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="number-info">Trillion $</span>
+              <h5>Revenue Opportunity</h5>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="numbers">
+              <span class="number" data-from="0" data-to="4" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="number-info">Billion</span>
+              <h5>Connected People</h5>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="numbers">
+              <span class="number" data-from="0" data-to="20" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="number-info">Billion</span>
+              <h5>Embedded &amp; Intelligent System</h5>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-3">
+            <div class="numbers">
+              <span class="number" data-from="0" data-to="50" data-speed="5000" data-refresh-interval="50"></span>
+              <span class="number-info">Trillion</span>
+              <h5>GBs of Data</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IoT - Left Image -->
+    <section class="section features">
+      <div class="container">
+        <div class="row flex flex-middle">
+          <div class="col-xs-12 col-md-6">
+            <figure class="figure">
+              <img src="img/handson.png" alt="IoT" />
+            </figure>
+          </div>
+          <div class="col-md-5">
+            <div class="feature">
+              <h3 class="section-title">IoT Hands-on Training</h3>
+              <p>Hands-on approach in the field of electronics is crucial industrial need. Internet of Things is booming in all the field.</p>
+              <p>Fields that emerges faster are <mark>Agriculture, Industries, Consumer Electronics, Health care, Realties, etc.,</mark> for greater control ability</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Big Data - Right Image -->
+    <section class="section features">
+      <div class="container">
+        <div class="row flex flex-middle">
+          <div class="col-md-5 col-md-offset-1">
+            <div class="feature text-right">
+              <h3 class="section-title">Big Data Hands-on Training</h3>
+              <p>Big data is a term that describes the large volume of data – both structured and unstructured – that inundates a business on a day-to-day basis. But it’s not the amount of data that’s important. It’s what organizations do with the <mark>data that matters</mark>. Big data can be analyzed for insights that lead to better decisions and strategic business moves.</p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <figure class="figure">
+              <img src="img/handson2.png" alt="Bigdata" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIM - Left Image -->
+    <!-- <section class="section features">
+      <div class="container">
+        <div class="row flex flex-middle">
+          <div class="col-xs-12 col-md-6">
+            <figure class="figure">
+              <img src="img/handson3.png" alt="BIM" />
+            </figure>
+          </div>
+          <div class="col-md-5">
+            <div class="feature">
+              <h3 class="section-title">BIM Hands-on Training</h3>
+              <p>Hands-on approach in the field of electronics is crucial industrial need. Internet of Things is booming in all the fields of business</p>
+              <p>Proactively <mark>redefine</mark> scalable services through compelling platforms.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Call To Action -->
+    <section class="section get-started">
+      <div class="container">
+        <div class="row">
+          <article class="call-to flex flex-middle">
+            <div class="col-md-6 col-md-offset-2">
+              <h3 class="title">E-Store</h3>
+              <p>Coming Soon!!!</p>
+            </div>
+            <!-- <div class="col-md-4">
+              <a href="#" class="btn btn-danger "></a>
+            </div> -->
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features / Mockup -->
+    <section class="section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <hgroup class="title-group">
+              <h3 class="section-title">Connected House</h3>
+              <h5 class="subtitle">Features of a Connected House</h5>
+            </hgroup>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <!-- Left Box -->
+            <ul class="boxes-list mirror">
+              <li>
+                <div class="iconbox">
+                  <i class="icon icon-fingerprint"></i>
+                  <div class="box">
+                    <h4 class="title">Highly Secured</h4>
+                    <p>Power of locking &amp; unlocking your house with your Mobile/Biometrics.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="iconbox">
+                  <i class="icon icon-shield"></i>
+                  <div class="box">
+                    <h4 class="title">Infinite Power</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam eros auctor neque volutpat pharetra placerat nisi</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="iconbox">
+                  <i class="icon icon-network"></i>
+                  <div class="box">
+                    <h4 class="title">Networks friendly</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam eros auctor neque volutpat pharetra</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 hidden-xs hidden-sm">
+            <figure>
+              <img src="img/chouse.png" class="centered verticalcenter" alt="connectedhouse" />
+            </figure>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <!-- Right Box -->
+            <ul class="boxes-list">
+              <li>
+                <div class="iconbox">
+                  <i class="icon icon-layers"></i>
+                  <div class="box">
+                    <h4 class="title">Precise work</h4>
+                    <p>Pellentesque non lorem volutpat lorem vehicula mollis eget vel justo. Proin vel lorem sed tortor consequat varius</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="iconbox">
+                  <i class="icon icon-sound-mix"></i>
+                  <div class="box">
+                    <h4 class="title">Aliens tested</h4>
+                    <p> Phasellus posuere ex eu lectus efficitur, ornare porttitor massa aliquet. In et lectus quis eros pharetra blandit in sit amet metus</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="iconbox">
+                  <i class="icon icon-colours"></i>
+                  <div class="box">
+                    <h4 class="title">Satellite support</h4>
+                    <p>Pellentesque non lorem volutpat lorem vehicula mollis eget vel justo. Proin vel lorem sed tortor consequat varius</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!-- Call To Action -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <article class="call-to flex flex-middle">
+              <div class="col-md-6 col-md-offset-2">
+                <h3 class="title">Would you like to find out more?</h3>
+                <p>Instruction to the audience to provoke an immediate response</p>
+              </div>
+              <div class="col-md-4">
+                <a href="#" class="btn btn-danger">Contact Us</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <a href="http://www.adioslabs.in">
+            <svg class="mylogo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 394.3 170">
+              <g class="g-labs">
+                <path d="M28.4 112.6h10.1v24.4h10.2v8.1H28.4V112.6z"/>
+                <path d="M75.3 112.6l4.6 28.5v4H69.7l-0.6-6.6h-4.5l-0.6 6.6h-10.1v-4l4.6-28.5H75.3L75.3 112.6zM68.3 130.4l-0.9-9.7h-1.1l-0.9 9.7H68.3z"/>
+                <path d="M86.4 145.1v-32.5h20.3c2.4 0 4.1 1.7 4.1 4v7.5c0 2.4-2 3.9-4.2 3.9v0.9c2.2 0 4.2 1.5 4.2 3.9v8.2c0 2.4-1.7 4-4.1 4H86.4zM100.6 120.8h-4v3.6h4V120.8zM96.5 137h4v-4.5h-4V137z"/>
+                <path d="M121.8 145.1c-2.4 0-4.1-1.7-4.1-4v-24.4c0-2.4 1.7-4 4.1-4h16.2c2.4 0 4.1 1.7 4.1 4v24.4c0 2.4-1.7 4-4.1 4H121.8zM127.9 120.8v16.2h4v-16.2H127.9z"/>
+                <path d="M169.9 112.6c2.4 0 4 1.7 4 4v12.8c0 1.5-1.2 3.3-2.7 3.7l3.2 8v4h-9.9l-2.7-10.1h-2v10.1h-10.2v-32.5H169.9L169.9 112.6zM159.7 120.8v6.1h4v-6.1H159.7z"/>
+                <path d="M201.5 112.6l4.6 28.5v4H195.9l-0.6-6.6h-4.5l-0.6 6.6h-10.1v-4l4.6-28.5H201.5L201.5 112.6zM194.5 130.4l-0.9-9.7h-1.1l-0.9 9.7H194.5z"/>
+                <path d="M209.3 120.8v-8.2h22.8v4l-1.6 4.1h-4.9v24.3h-10.2v-24.3H209.3z"/>
+                <path d="M242.2 145.1c-2.4 0-4.1-1.7-4.1-4v-24.4c0-2.4 1.7-4 4.1-4h16.2c2.4 0 4.1 1.7 4.1 4v24.4c0 2.4-1.7 4-4.1 4H242.2zM248.3 120.8v16.2h4v-16.2H248.3z"/>
+                <path d="M290.3 112.6c2.4 0 4 1.7 4 4v12.8c0 1.5-1.2 3.3-2.7 3.7l3.2 8v4h-9.9l-2.7-10.1h-2v10.1h-10.2v-32.5H290.3L290.3 112.6zM280.1 120.8v6.1h4v-6.1H280.1z"/>
+                <path d="M301.3 145.1v-32.5h10.1v32.5H301.3z"/>
+                <path d="M318.9 145.1v-32.5h21.7v4l-1.6 4.1h-10v3.6h10v8.1h-10v4.5h11.6v8.1H318.9L318.9 145.1z"/>
+                <path d="M346.2 123.5v-6.8c0-2.4 1.7-4 4.1-4h17.7v4l-1.6 4.2h-10v1.5l8.8 5.9c2.2 1.5 2.7 2.9 2.7 5.5v7.4c0 2.4-1.7 4-4 4h-17.7v-8.1h11.6v-2.1l-8.8-5.9C346.7 127.5 346.2 126.1 346.2 123.5z"/>
+              </g>
+              <g class="g-adios">
+                <polygon points="25.5 99.2 62.7 24.8 99.9 99.2 "/>
+                <rect x="187.9" y="25.8" width="18.6" height="74.5"/>
+                <path d="M213.2 62c0 20.6 16.7 37.2 37.2 37.2 20.6 0 37.2-16.7 37.2-37.2 0-20.6-16.7-37.2-37.2-37.2C229.9 24.8 213.2 41.5 213.2 62z"/>
+                <path d="M143.7 24.8h-37.2v74.5h37.2c20.6 0 37.2-16.7 37.2-37.2C181 41.4 164.3 24.8 143.7 24.8z"/>
+                <path d="M320.2 76.3h48.7V24.8H320.2c-14.2 0-25.7 11.5-25.7 25.7C294.5 64.7 306 76.3 320.2 76.3z"/>
+                <path style="opacity: 0.8" d="M343.3 47.8h-48.7v51.4h48.7c14.2 0 25.7-11.5 25.7-25.7C369 59.3 357.5 47.8 343.3 47.8z" />
+              </g>
+            </svg>
+          </a>
+        </div>
+          <!--  Social Icons -->
+        <div class="col-md-8">
+          <ul class="social-list">
+            <li><a href="http://www.facebook.com/adioslabs" class="icon icon-facebook"></a></li>
+            <li><a href="http://www.twitter.com/adioslabs" class="icon icon-twitter"></a></li>
+            <li><a href="https://plus.google.com/104471477796928147792" class="icon icon-google"></a></li>
+            <li><a href="https://www.linkedin.com/company/adios-laboratories" class="icon icon-linkedin"></a></li>
+            <li><a href="https://github.com/ADIOSlaboratories" class="icon icon-github"></a></li>
+            <li><a href="https://www.youtube.com/channel/UC5phASOru9x6Jit5MrGLmNw" class="icon icon-youtube"></a></li>
+          </ul>
+            <!--  Footer Menu -->
+          <nav class="foter-navbar" role="navigation">
+            <ul class="footer-nav" role="menubar">
+              <li role="menuitem"><a href="#">About</a></li>
+              <li role="menuitem"><a href="#">Career</a></li>
+              <li role="menuitem"><a href="#">Press</a></li>
+              <li role="menuitem"><a href="#">Contact</a></li>
+              <li role="menuitem"><a href="#">Terms</a></li>
+              <li role="menuitem"><a href="#">Privacy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <p class="copyright">&copy; <time datetime="2016">2016</time> ADIOS Laboratories, All Rights Reserved, Made with <i class="icon icon-heart"></i> by <i class="fa fa-anchor" style='color:#979797;'></i><a class="foo-anchor" href="#" target="_blank"> Anchor Designs</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/vendor/jquery.appear.js"></script>
+  <script src="js/vendor/slick.min.js"></script>
+  <script src="js/vendor/jquery.countTo.js"></script><!-- Count To Value -->
+  <script src="js/vendor/jquery.parallax.min.js"></script>
+  <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+    
+  <!-- Background slider -->
+  <script src="js/vendor/vegas.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
